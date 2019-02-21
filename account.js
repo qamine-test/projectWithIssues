@@ -123,6 +123,20 @@
           feedback.showError(error);
         },
         "Could not save. Please try again.");
+      
+      utils.JSend(url, postVariable, function(data) {
+          feedback.showSuccess("Saved");
+        }, function(error) {
+          feedback.showError(error);
+        },
+        "Could not save. Please try again.");
+      
+      utils.JSend(url, postVariable, function(data) {
+          feedback.showSuccess("Saved");
+        }, function(error) {
+          feedback.showError(error);
+        },
+        "Could not save. Please try again.");
     });
 
     $(".jsCommitEmail").change(function() {
