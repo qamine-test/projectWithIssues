@@ -1,6 +1,9 @@
 /* global QamineUtils */
 
 "use strict";
+console.log("log");
+
+eval("js here");
 
 (function($, window) {
 
